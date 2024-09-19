@@ -13,7 +13,7 @@ class Address extends Model
 
     protected $fillable = [
         'city',
-        'state'
+        'state',
     ];
 
     public function clients(): HasMany
